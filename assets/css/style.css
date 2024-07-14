@@ -336,6 +336,10 @@ h1, h2, h3, h4, h5, h6 {
     background-attachment: fixed;
   }
 }
+#hero .hero-container a{
+   color: white;
+   background-color: red;
+}
 #hero:before {
   content: "";
   background: rgba(0, 0, 0, 0.6);
@@ -523,7 +527,7 @@ section {
   border: 2px solid #2dc997;
 }
 #about .about-container .icon-box .icon i {
-  color: #2dc997;
+  color: red;
   font-size: 24px;
   line-height: 0;
 }
